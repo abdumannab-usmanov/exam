@@ -1,0 +1,104 @@
+.header-bottom{
+    background-color: #FFFFFF;
+    
+}
+
+.header-bottom__inner{
+    padding-top:15px;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.header-bottom__logo{
+    position: absolute;
+    transition: opacity 0.4s ease;
+}
+
+.header-bottom__logo:hover{
+    opacity: 80%;
+}
+
+.header-bottom__logo:active{
+    opacity: 60%;
+}
+
+.header-bottom__menu{
+    margin-left: auto;
+    margin-right: 195px;
+}
+
+.header-bottom__list{
+    @include list-reset;
+    display: flex;
+    align-items: center;
+    // margin-left: auto;
+    
+}
+
+.header-bottom__item{
+    font-weight: $font-weight; 
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 55px;
+    position: relative;
+}
+
+
+
+.header-bottom__item:first-child{
+    margin-left: 0;
+}
+
+.header-bottom__item:first-child::before{
+    position: absolute;
+    left: -27px;
+    bottom: 6px;
+    margin: 0 auto;
+    content: "" ;
+    display: inline-block;
+    width: 20px ;
+    height: 14.75px ;
+    background-image: url(../img/fish.svg);
+    background-repeat: no-repeat;
+    
+}
+.header-bottom__link{
+    color: #333333;
+    text-decoration: none;
+    transition: border-bottom 0.3s ease;
+}
+
+.header-bottom__link:hover{
+    border-bottom: 3px solid #F4FFAD;
+}
+
+.header-bottom__link:active{
+    border-bottom: 3px solid #F4FFAD;
+    opacity: 60%
+}
+
+.header-bottom__answer{
+    font-weight: $font-weight; 
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    color:#333333;
+    position: relative;
+}
+
+.header-bottom__answer::before{
+    position: absolute;
+    left: -32px;
+    bottom: -2px;
+    margin: 0 auto;
+    content: "" ;
+    display: inline-block;
+    width: 26px ;
+    height: 26px ;
+    background-image: url(../img/pet.svg);
+    background-repeat: no-repeat;
+}

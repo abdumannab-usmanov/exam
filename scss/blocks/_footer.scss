@@ -1,0 +1,164 @@
+footer{
+    background-color: #EBEBEB;
+}
+
+.info{
+    display: flex;
+    padding: 54px 0px 59px 0px;
+}
+
+.info__pic{
+    margin-right: 67px;
+}
+
+.info__pic:hover{
+    opacity: 80%;
+}
+
+.info__pic:active{
+    opacity: 60%;
+}
+
+.info__wrap, .info__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.info__wrap{
+    display: flex;
+    margin-top: 5px;
+    margin-right: 157px;
+}
+
+.info__left{
+    margin-right: 87px;
+}
+
+.info__item{
+    font-weight: $font-weight;
+    font-size: 16px;
+    line-height:21px ;
+
+}
+
+.info__link{
+    color:$dark-color ;
+    text-decoration: none;
+    transition: color 0.4s ease;
+
+}
+
+.info__link:hover{
+    color:#FFBD54;
+}
+
+.info__link:active{
+    color:$dark-color;
+    opacity: 70%;
+}
+
+.info__content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 137px;
+}
+
+.info__date{
+    font-weight: $font-weight;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color:#333333;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.info__calendar{
+    font-weight: $font-weight;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color:#333333;
+}
+
+
+.info__date::before{
+    position: absolute;
+    left: -18px;
+    top: 2px;
+    margin: 0 auto;
+    content: "" ;
+    display: inline-block;
+    width: 14px ;
+    height: 14px ;
+    background-image: url(../img/address.svg);
+    background-repeat: no-repeat;
+}
+
+.info__prospect{
+    width: 100%;
+    max-width:157px ;
+    font-weight: $font-weight;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color:#333333;
+    margin-right: 106px;
+    position: relative;
+}
+
+.info__prospect::before{
+    position: absolute;
+    left: -22px;
+    top: 4px;
+    content: "" ;
+    display: inline-block;
+    margin: 0 auto;
+    width: 14px ;
+    height: 13px ;
+    background-image: url(../img/house.svg);
+}
+
+.info__phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.info__number{
+    font-weight: $font-weight;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color:#333333;
+    position: relative;
+    transition: color 0.4s ease;
+}
+
+.info__number:hover{
+    color: #FFBD54;
+}
+
+.info__number:active{
+    color:#333333;
+    opacity:60%;
+}
+
+.info__number::before{
+    position: absolute;
+    left: -19px;
+    top: 1px;
+    margin: 0 auto;
+    content: "" ;
+    display: inline-block;
+    width: 13px ;
+    height: 13px ;
+    background-image: url(../img/phone.svg);
+    background-repeat: no-repeat;
+}
+
+.info__number ~ .info__number::before{
+    background-image: none;
+
+}

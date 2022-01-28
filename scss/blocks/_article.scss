@@ -1,0 +1,222 @@
+.article{
+    padding-top: 151px;
+    padding-bottom: 265px;
+
+}
+
+.article__title{
+    font-weight:700 ;
+    font-size:48px ;
+    color:$dark-color ;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom:80px ;
+}
+
+.article__list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.article__item{
+    width: 100%;
+    max-width: 305px;
+    background-color:#FEFEFE;
+    border-radius: 5px;
+    margin-right: 24px;
+}
+
+.article__img{
+    width: 100%;
+    max-width: 305px;
+    max-height:180px ;
+    margin-bottom: 21px;
+}
+
+.article__date{
+    font-weight:$font-weight ;
+    font-size:14px ;
+    line-height:18px ;
+    color:#949494 ;
+    margin-left: 212px;
+    margin-right: 22px;
+    margin-bottom:2px ;
+}
+
+.article__content{
+    padding-right:31px ;
+    padding-bottom: 37px;
+    padding-left: 30px;
+}
+
+.article__wrapper{
+    width: 100%;
+    max-width: 182px;
+}
+
+.article__volume{
+    font-weight: 700;
+    font-size:22px ;
+    line-height:25px ;
+    color:#000000 ;
+    margin-top: 0;
+    margin-bottom:10px ;
+}
+
+.article__text{
+    font-weight:400 ;
+    font-size:16px ;
+    line-height: 20px;
+    color:#949494;
+    margin-top:0 ;
+    margin-bottom:38px ;
+}
+
+.article__link{
+    font-weight:$font-weight ;
+    font-size: 16px;
+    line-height:21px ;
+    color:$dark-color;
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+    transition: color 0.4s ease;
+}
+
+.article__link:hover{
+    color: #FFBD54;
+}
+
+.article__link:active{
+
+    color: #333333;
+    opacity: 0.6;
+}
+
+.article__link::before{
+    position: absolute;
+    left: -32px;
+    bottom: -2px;
+    content: "" ;
+    display: inline-block;
+    margin: 0 auto;
+    width: 26px ;
+    height: 26px ;
+    background-image: url(../img/pet.svg);
+    background-repeat: no-repeat;
+
+}
+
+// ==================second-list=======================
+
+.article__middle{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 24px;
+}
+
+.article__pic{
+    width: 100%;
+    max-width:305px ;
+    max-height:435px ;
+}
+
+.article__right{
+    padding: 41px 35px 38px 30px;
+}
+
+.article__statement{
+    font-weight:400 ;
+    font-size:14px ;
+    color: #3D9CEA;
+    text-decoration: none;
+}
+
+.article__statement ~ .article__statement{
+    margin-left: 7px;
+}
+
+.article__day{
+    font-weight: $font-weight;
+    font-size: 14px;
+    color: #949494;
+    margin-left:56px ;
+}
+
+.article__get-dog{
+    font-weight:700 ;
+    font-size:26px ;
+    line-height:29px ;
+    color: $dark-color;
+    margin-top: 29px;
+    margin-bottom:15px ;
+}
+
+.article__info{
+    font-weight: 400;
+    font-size:16px ;
+    line-height:20px ;
+    color:#949494 ;
+    margin-top: 0;
+    margin-bottom:36px ;
+
+}
+
+// ===============third-list================
+
+.article__vaccine{
+    width: 100%;
+    max-width: 305px;
+    background-color:#FEFEFE;
+    border-radius: 5px;
+}
+
+.article__get-vaccine{
+    width: 100%;
+    max-width: 305px;
+    max-height:180px ;
+    margin-bottom: 19px;
+}
+
+.article__schedule{
+    font-weight:$font-weight ;
+    font-size:14px ;
+    line-height:18px ;
+    color:#949494 ;
+    margin-left: 212px;
+    margin-right: 27px;
+    margin-bottom:3px;
+}
+
+.article__pet{
+    padding-right:31px ;
+    padding-bottom: 39px;
+    padding-left: 30px;
+}
+
+.article__dose{
+    width: 100%;
+    max-width: 182px;
+}
+
+.article__information{
+    font-weight: 700;
+    font-size:22px ;
+    line-height:25px ;
+    color:#000000 ;
+    margin-top: 0;
+    margin-bottom:13px ;
+}
+
+.article__disease{
+    font-weight:400 ;
+    font-size:16px ;
+    line-height: 20px;
+    color:#949494;
+    margin-top:0 ;
+    margin-bottom:31px ;
+}

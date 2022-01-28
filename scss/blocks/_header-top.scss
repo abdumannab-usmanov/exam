@@ -1,0 +1,123 @@
+
+.header-top{
+    background-color:#F9F8F8;
+}
+
+.header-top__content{
+    display: flex;
+    align-items: center;
+    margin-left: 224px;
+    padding-top:12px;
+    padding-bottom: 9px;
+}
+
+
+
+.header-top__prospect{
+    font-weight: $font-weight;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color:#333333;
+    margin-right: 128px;
+    position: relative;
+    
+}
+
+.header-top__prospect::before{
+    position: absolute;
+    left: -22px;
+    bottom: 4px;
+    content: "" ;
+    display: inline-block;
+    margin: 0 auto;
+    width: 14px ;
+    height: 13px ;
+    background-image: url(../img/house.svg);
+}
+
+
+.header-top__phone{
+    margin-right: 119px;
+}
+
+.header-top__number{
+    font-weight: $font-weight;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color:#333333;
+    position: relative;
+    transition: color 0.4s ease;
+}
+
+.header-top__number:hover{
+    color: #FFBD54;
+}
+
+.header-top__number:active{
+    color:#333333;
+    opacity:60%;
+}
+
+.header-top__number::before{
+    position: absolute;
+    left: -19px;
+    bottom: 1px;
+    margin: 0 auto;
+    content: "" ;
+    display: inline-block;
+    width: 13px ;
+    height: 13px ;
+    background-image: url(../img/phone.svg);
+    background-repeat: no-repeat;
+}
+
+.header-top__number--second{
+    margin-left: 22px;
+}
+
+.header-top__number--second::before{
+    position: absolute;
+    left: -9px;
+    bottom: -4px;
+    margin: 0 auto;
+    content: "" ;
+    display: inline-block;
+    width: 13px ;
+    height: 13px ;
+    background-image: url(../img/circle.svg);
+    background-repeat: no-repeat;
+}
+
+.header-top__calendar{
+    font-weight: $font-weight;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color:#333333;
+    margin-right: 17px;
+    position: relative;
+}
+
+.header-top__calendar::before{
+    position: absolute;
+    left: -18px;
+    bottom: 2px;
+    margin: 0 auto;
+    content: "" ;
+    display: inline-block;
+    width: 14px ;
+    height: 14px ;
+    background-image: url(../img/address.svg);
+    background-repeat: no-repeat;
+}
+
+.header-top__calendar-second{
+    font-weight: $font-weight;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color:#333333;
+}

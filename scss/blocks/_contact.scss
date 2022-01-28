@@ -1,0 +1,106 @@
+.contact{
+margin-bottom: 247px;
+}
+
+.contact__inner{
+    width: 100%;
+    max-height: 652px;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/Feedback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact__map{
+   width: 100%;
+   max-width: 462px;
+   max-height: 650px;
+}
+
+.contact__wrapper{
+    width: 100%;
+    max-width: 1694px;
+    padding: 62px 445px 74px 166px;
+}
+
+.contact__content{
+    width: 100%;
+    max-width: 360px;
+}
+
+.contact__form{
+    width: 100%;
+    max-width: 344px;
+}
+
+.contact__title{
+    font-weight: 700;
+    font-size:48px ;
+    line-height:62px;
+    color:#FFFFFF ;
+    margin-top: 0;
+    margin-bottom:14px ;
+}
+
+.contact__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color:#949494;
+    margin-top: 0;
+    margin-bottom: 29px;
+}
+
+.contact__name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color:#949494 ;
+    padding: 16px 188px 13px 22px;
+    margin-bottom: 14px;
+}
+
+.contact__email{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color:#949494 ;
+    padding: 16px 188px 13px 22px;
+    margin-bottom: 14px;
+}
+
+.contact__question{
+    width: 100%;
+    max-width: 391px;
+    max-height: 165px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color:#949494 ;
+    padding: 17px 103px 86px 22px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    resize: none;
+}
+
+.contact__press{
+    color: #FFFFFF;
+    font-weight:500 ;
+    font-size: 16px;
+    background-color:#FFBD54;
+    padding: 15px 50px;
+    transition: all 0.4s ease;
+}
+
+.contact__press:hover{
+    color: #FFBD54;
+    background-color:#333333 ;
+}
+
+.contact__press:hover{
+    color: #FFBD54;
+    background-color:#333333 ;
+    opacity: 0.6;
+}

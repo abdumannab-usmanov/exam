@@ -1,0 +1,72 @@
+.event{
+    height: 480px;
+    background-image: url(../../img/dog-alfa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    // padding-top: 325px;
+    // padding-bottom: 216px;
+}
+
+.event__inner{
+    display: block;
+    width: 100%;
+    max-width: 535px;
+    margin-left: 287px;
+    margin-right: 613px;
+    padding-top: 214px;
+    
+    
+}
+
+.event__title{
+    display: inline-block;
+    font-weight:700;
+    font-size:48px ;
+    color:#FFFFFF ;
+    margin-top: 0;
+    margin-bottom: 32px;
+    border: none;
+}
+
+.event__blank{
+    display: flex;
+    align-items: center;
+}
+
+.event__email{
+    display: inline-block;
+    font-weight:400 ;
+    font-size: 16px;
+    line-height: 20px;
+    color:#949494 ;
+    margin-right: 21px;
+    padding: 18px 127px 12px 22px;
+    border: none;
+    
+}
+.event__email:focus{
+    outline: none;
+    border: solid #FFBD54;
+    color: $dark-color;
+}
+
+.event__sign{
+    font-weight: $font-weight;
+    font-size: 16px;
+    line-height:21px ;
+    padding: 15px 53px 14px 51px;
+    color:#ffffff;
+    background-color: #333333;
+    transition: all 0.6s ease;
+    border: none;
+}
+
+.event__sign:hover{
+    color:#333333;
+    background-color: #FFBD54;
+}
+
+.event__sign:active{
+    opacity: 0.6;
+}

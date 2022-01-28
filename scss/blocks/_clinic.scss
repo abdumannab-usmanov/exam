@@ -1,0 +1,77 @@
+.clinic{
+    padding-bottom: 191px;
+}
+
+.clinic__inner{
+    width: 100%;
+    max-width: 753px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.clinic__inner::before{
+    content: "";
+    position: absolute;
+    top: -33px;
+    right: 0;
+    bottom: 0;
+    left: -52px;
+    background-image: url(../img/before.png);
+    background-repeat: no-repeat;
+}
+
+.clinic__inner::after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    right: -88px;
+    bottom: 0;
+    left: 750px;
+    background-image: url(../../img/after.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.clinic__info{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #949494;
+    margin-top: 43px;
+    margin-bottom: 70px;
+    position: relative;
+
+}
+
+.clinic__info::before{
+    content: "";
+    width: 100%;
+    max-width:140px ;
+    height: 1px;
+    background-color:#DBDBDB;
+    position: absolute;
+    top: -42px;
+    left: 263px;
+}
+
+.clinic__info::after{
+    content: "";
+    width: 100%;
+    max-width:140px ;
+    height: 1px;
+    background-color:#DBDBDB;
+    position: absolute;
+    bottom: -42px;
+    left: 263px;
+}
+
+.clinic-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color:#333333;
+    
+}
+
